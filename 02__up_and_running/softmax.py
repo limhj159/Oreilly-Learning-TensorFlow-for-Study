@@ -1,8 +1,10 @@
+
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
+import os
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
-
-DATA_DIR = '/tmp/data'
+DATA_DIR = './tmp/data'
 NUM_STEPS = 1000
 MINIBATCH_SIZE = 100
 
